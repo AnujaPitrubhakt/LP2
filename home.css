@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+.navbar-brand b{
+    font-family: monsterat;
+    font-weight: 600;
+}
+.btn{
+    font-family: monsterat;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btn:hover{
+    box-shadow: inset 0 0 0 20px #bdc4c9;
+    color: black; 
+}
+.carousel-item img{
+    position: relative;
+    z-index: -1;
+}
+.carousel-item h1{
+    position: absolute;
+    color: aliceblue;
+    font-family: Roboto ;
+    margin-top: 2rem;
+    margin-left: 30rem;
+}
+.button1 .btn{
+    position: absolute;
+    margin-left: 35rem;
+    margin-top: 6rem;
+    width: 6rem;
+    text-decoration: none;
+}
+.button1 .btn:hover{
+    /* background-color: aliceblue; */
+    box-shadow: inset 0 0 0 20px #bdc4c9;
+}
+.modal-header h3{ 
+    font-family: monsterat !important;
+    font-weight: 600;
+    margin-left: 7rem;
+  }
+  .modal-body h4{
+    text-align: center !important;
+    font-family: monsterat;
+    font-weight: 600;   
+  }
+  .col-4 a{
+    text-decoration: none !important;
+  }
+  @media screen and (max-width: 768px){
+    .d-flex .form-control{
+      width: 50% !important;
+    }
+  }
